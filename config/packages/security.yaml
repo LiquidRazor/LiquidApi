@@ -1,0 +1,11 @@
+security:
+  enable_authenticator_manager: true
+  firewalls:
+    dev: { pattern: ^/(_(profiler|wdt)) , security: false }
+    api:
+      pattern: ^/
+      stateless: true
+      # add your authenticators here when you need them (e.g. JWT)
+  access_control:
+    - { path: ^/health, roles: PUBLIC_ACCESS }
+    - { path: ^/(openapi(\.json)?|docs.*), roles: PUBLIC_ACCESS }

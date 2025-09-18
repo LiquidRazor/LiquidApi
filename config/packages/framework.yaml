@@ -1,0 +1,9 @@
+framework:
+  secret: '%env(APP_SECRET)%'
+  http_method_override: false
+  serializer: { enable_annotations: true }
+  validation: { enable_annotations: true }
+  php_errors: { log: true }
+  cache:
+    app: cache.adapter.filesystem
+    system: cache.adapter.system
