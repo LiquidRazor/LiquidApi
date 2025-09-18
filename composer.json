@@ -18,7 +18,7 @@
     "symfony/monolog-bundle": "^3.10",
     "symfony/security-bundle": "^7.0",
     "symfony/rate-limiter": "^7.0",
-    "nelmio/cors-bundle": "^2.6",
+    "nelmio/cors-bundle": "^2.5",
     "liquidrazor/dto-api-bundle": "^0.1",
     "symfony/doctrine-bridge": "^7",
     "doctrine/dbal": "^3",
