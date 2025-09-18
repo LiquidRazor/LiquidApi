@@ -34,8 +34,15 @@ Whether you’re experimenting, prototyping, or building production-ready servic
 Create a new project using Composer:
 
 ```bash
-composer create-project liquidrazor/liquidapi my-api
+composer composer create-project liquidrazor/liquid-api my-api
 ```
+
+or if you are using docker (and like less clutter on your own computer)
+
+```bash
+docker run --rm --interactive --tty -u $(id -u):$(id -g) --volume $PWD:/app composer create-project liquidrazor/liquid-api my-api
+```
+
 ---
 
 ## 📂 Project Structure
