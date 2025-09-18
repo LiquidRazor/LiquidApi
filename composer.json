@@ -51,7 +51,8 @@
   },
   "extra": {
     "symfony": {
-      "allow-contrib": true
+      "allow-contrib": true,
+      "docker": false
     }
   }
 }
