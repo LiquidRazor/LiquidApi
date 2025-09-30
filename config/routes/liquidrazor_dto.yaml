@@ -1,0 +1,2 @@
+liquidrazor_dto_api:
+  resource: '@DtoApiBundle/Resources/config/routes.php'
