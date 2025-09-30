@@ -1,3 +1,0 @@
-app_health:
-  path: /health
-  controller: App\Controller\HealthController::ping
